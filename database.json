@@ -1,0 +1,129 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "fullName": "Kristi Cornett",
+        "email": "kristi@cornettclan.com",
+        "isStaff": true
+      },
+      {
+        "id": 2,
+        "fullName": "Beth Ellis",
+        "email": "beth@ellis.com",
+        "isStaff": false
+      },
+      {
+        "id": 3,
+        "fullName": "John Doe",
+        "email": "john@doe.com",
+        "isStaff": false
+      }
+    ],
+    "customers": [
+      {
+        "id": 1,
+        "userId": 2,
+        "loyaltyNumber": 12345
+      },
+      {
+        "id": 2,
+        "userId": 3,
+        "loyaltyNumber": 54321
+      }
+    ],
+    "employees": [
+      {
+        "id": 1,
+        "userId": 1,
+        "startDate": "07-05-2023",
+        "payRate": 20.00
+      }
+    ],
+    "locations": [
+      {
+        "id": 1,
+        "name": "Kandy Store 1",
+        "address": "432 Kandy Ln",
+        "squareFootage": 1500
+      },
+      {
+        "id": 2,
+        "name": "Kandy Store 2",
+        "address": "234 Candy Kane Ln",
+        "squareFootage": 2000
+      },
+      {
+        "id": 3,
+        "name": "Kandy Store 3",
+        "address": "123 Dumplin Drive",
+        "squareFootage": 1800
+      },
+      {
+        "id": 4,
+        "name": "Kandy Store 4",
+        "address": "789 Lollipop Ln",
+        "squareFootage": 2500
+      }
+    ],
+    "products": [
+      {
+        "id": 1,
+        "name": "Reece Cups",
+        "productTypeId": 1,
+        "pricePerUnit": 2.49
+      },
+      {
+        "id": 2,
+        "name": "Gummy Bears",
+        "productTypeId": 2,
+        "pricePerUnit": 1.99
+      },
+      {
+        "id": 3,
+        "name": "Milk Chocolate Bar",
+        "productTypeId": 1,
+        "pricePerUnit": 3.99
+      }
+    ],
+    "productTypes": [
+      {
+        "id": 1,
+        "type": "chocolates"
+      },
+      {
+        "id": 2,
+        "type": "gummies"
+      },
+      {
+        "id": 3,
+        "type": "hard candies"
+      }
+    ],
+    "purchases": [
+      {
+        "id": 1,
+        "customerId": 1,
+        "productId": 1,
+        "quantity": 1
+      },
+      {
+        "id": 2,
+        "customerId": 2,
+        "productId": 2,
+        "quantity": 3
+      },
+      {
+        "id": 3,
+        "customerId": 1,
+        "productId": 3,
+        "quantity": 2
+      },
+      {
+        "id": 4,
+        "customerId": 2,
+        "productId": 1,
+        "quantity": 4
+      }
+    ]
+  }
+  
